@@ -65,7 +65,7 @@ public class StudentList {
         for (Student student: studentList) {
             String format = "Student %s lives at %s \n";
             System.out.printf(format, 
-                    student.getAddress(), student.getName());
+                    student.getName(), student.getAddress());
         }
         
     }
